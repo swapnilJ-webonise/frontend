@@ -3,21 +3,58 @@
 
 }
 
-a.nav-link{
-  color: #FFFFFF;
-  font-family: georgia;
-  font-style: italic;
+a.nav-link {
+    color: #FFFFFF;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+.nav-bar {
+    background-color: #3355aa;
+}
+
+.logo {
+    padding: 20px;
 }
 
 .fa {
-  color: blue;
-  background-color: white;
+    color: blue;
 }
 
-.banner {
+.bannerPadding{
+  padding: 35px;
+}
+
+.banner-img {
     height: 100%;
     width: 100%;
+}
+.para1{
+  height: 60%;
+}
 
+.middleBlock{
+  background-color: #e6e6e6;
+}
+
+input {
+    font-style: italic;
+}
+
+.caption-text {
+    font-size: 14px;
+    font-style: italic;
+    font-family: Georgia;
+}
+
+
+.ul-font {
+    font-style: italic;
+    height: 80%;
+}
+
+li span {
+    border-left: 1px;
 }
 
 .thumbnail {
@@ -46,6 +83,34 @@ img {
 }
 
 
+.writer {
+    color: black;
+    font-style: bold;
+}
+
+h1 {
+    color: #595959;
+}
+
+.viewMore {
+    font-style: italic;
+    color: blue;
+}
+
+
+
+p,
+span,
+li,
+h4,
+h1 {
+    font-family: Georgia;
+}
+
+a {
+    font-size: 14px;
+    color: #737373;
+}
 
 .below-border {
     display: block;
@@ -73,13 +138,11 @@ h6 {
     font-family: georgia;
     font-size: 10px;
     color: #D3D3D3;
-
 }
 
 
 .sectors {
     padding: 25px;
-
 }
 
 h4 {
@@ -87,4 +150,40 @@ h4 {
     font-size: 20px;
     text-align: center;
 
+}
+
+span.vertical-line {
+    width: 1px;
+    background-color: currentColor;
+    height: 100%;
+    float: left;
+}
+
+label {
+    color: #737373;
+}
+
+.copyright {
+    margin-top: 5px;
+    margin-bottom: 35px;
+    font-size: 14px;
+    color: #737373;
+}
+
+.footer-out {
+    margin-top: 15px;
+}
+
+.footerCurrentPage {
+    color: white;
+    font-style: bold;
+}
+
+hr {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: 3px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: #3d3d3d;
+    width: 100%;
 }
