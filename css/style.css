@@ -3,26 +3,65 @@
 
 }
 
+ul li{
+  display: inline-block;
+}
+
 a.nav-link {
     color: #FFFFFF;
     font-family: Georgia;
     font-style: italic;
 }
 
-.nav-bar {
-    background-color: #3355aa;
+body{
+  font-family: Georgia;
+  font-size: 13px;
+  color: #222222;
 }
+
+
+.headings{
+  font-size: 16px;
+  color: #3355aa;
+}
+
+.noBorder{
+  border:none;
+  border-bottom-style: groove;
+  border-bottom-color:  #e6e6e6;
+  border-width: 2px;
+  padding-left: inherit;
+  padding-right;
+  word-break:break-all;
+
+}
+
+.navbarBackground{
+  background-color: #3355aa;
+  height: 40px;
+}
+
+
+.nav-item{
+  padding-left: 5px;
+  padding-right:5px;
+  border-left:1px solid blue;
+}
+
 
 .logo {
     padding: 20px;
 }
 
 .fa {
-    color: blue;
+    color: white;
 }
 
-.bannerPadding{
-  padding: 35px;
+.upperScreenPart{
+  padding-top:  35px;
+  padding-left: 10px;
+  padding-bottom: 45px;
+
 }
 
 .banner-img {
@@ -31,14 +70,26 @@ a.nav-link {
 }
 .para1{
   height: 60%;
+  margin-top: 20px;
+  margin-bottom: 45px;
 }
 
-.middleBlock{
+.middleScreenPart{
   background-color: #e6e6e6;
+  min-width: 100%;
+  border-top:  groove;
+  border-top-color:  #e6e6e6;
+  border-width: 2px;
+  padding-bottom: 75px;
 }
 
-input {
+.lowerScreenPart{
+  padding-bottom: 75px;
+}
+
+.sendToLeft {
     font-style: italic;
+    width: auto;
 }
 
 .caption-text {
@@ -53,6 +104,11 @@ input {
     height: 80%;
 }
 
+form{
+  display: inline;
+  float: right;
+}
+
 li span {
     border-left: 1px;
 }
@@ -61,6 +117,7 @@ li span {
     position: relative;
     padding: 0px;
     margin-bottom: 20px;
+    border: none;
 }
 
 .text-thumbnail {
@@ -79,13 +136,16 @@ li span {
 img {
 
     padding: 5px;
-
 }
 
+.grayImage{
+  height: 250px;
+}
 
 .writer {
     color: black;
     font-style: bold;
+
 }
 
 h1 {
@@ -97,21 +157,6 @@ h1 {
     color: blue;
 }
 
-
-
-p,
-span,
-li,
-h4,
-h1 {
-    font-family: Georgia;
-}
-
-a {
-    font-size: 14px;
-    color: #737373;
-}
-
 .below-border {
     display: block;
     width: 100%;
@@ -121,9 +166,8 @@ a {
 }
 
 h3 {
-    text-align: center;
-    color: #3355aa;
-    font-size: 16px;
+    border-bottom: 3px solid orange;
+    padding-bottom: 20px;
 }
 
 .announcement-border {
@@ -143,11 +187,18 @@ h6 {
 
 .sectors {
     padding: 25px;
+    color: #333333;
+    font-size: 28px;
+    font-weight:  bold;
+}
+
+.cardLayout{
+  height: 75px;
 }
 
 h4 {
     color: #3355aa;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
 
 }
@@ -179,11 +230,64 @@ label {
     font-style: bold;
 }
 
-hr {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    border: 3px;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    color: #3d3d3d;
-    width: 100%;
+
+.footerColor{
+  background-color: #333333;
+  min-width: 100%;
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+
+
+.footerStyle{
+  font-size: 14px;
+  padding-top: 15px;
+  color: white;
+  padding-right: 5px;
+
+}
+
+.leftFooter{
+  font-size: 14px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right-style: groove;
+}
+.rightFooter{
+  font-size: 11px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-left-style: groove;
+  font-weight: 200;
+
+
+}
+
+a.footerLink{
+  color: gray;
+}
+
+a.footerLink:hover{
+  color: white;
+  text-decoration: none;
+}
+
+a.viewMore:hover{
+  color: blue;
+  text-decoration: none;
+}
+
+.copyright{
+  font-size: 11px;
+
+}
+
+.removeUlMargin{
+  padding-left: inherit;
+}
+
+.bottomRow{
+  border-top-style: groove;
+  border-top-color:  gray;
+
 }
