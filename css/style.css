@@ -1,0 +1,293 @@
+.header {
+    height: 80px;
+
+}
+
+ul li{
+  display: inline-block;
+}
+
+a.nav-link {
+    color: #FFFFFF;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+body{
+  font-family: Georgia;
+  font-size: 13px;
+  color: #222222;
+}
+
+
+.headings{
+  font-size: 16px;
+  color: #3355aa;
+}
+
+.noBorder{
+  border:none;
+  border-bottom-style: groove;
+  border-bottom-color:  #e6e6e6;
+  border-width: 2px;
+  padding-left: inherit;
+  padding-right;
+  word-break:break-all;
+
+}
+
+.navbarBackground{
+  background-color: #3355aa;
+  height: 40px;
+}
+
+
+.nav-item{
+  padding-left: 5px;
+  padding-right:5px;
+  border-left:1px solid blue;
+}
+
+
+.logo {
+    padding: 20px;
+}
+
+.fa {
+    color: white;
+}
+
+.upperScreenPart{
+  padding-top:  35px;
+  padding-left: 10px;
+  padding-bottom: 45px;
+
+}
+
+.banner-img {
+    height: 100%;
+    width: 100%;
+}
+.para1{
+  height: 60%;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.middleScreenPart{
+  background-color: #e6e6e6;
+  min-width: 100%;
+  border-top:  groove;
+  border-top-color:  #e6e6e6;
+  border-width: 2px;
+  padding-bottom: 75px;
+}
+
+.lowerScreenPart{
+  padding-bottom: 75px;
+}
+
+.sendToLeft {
+    font-style: italic;
+    width: auto;
+}
+
+.caption-text {
+    font-size: 14px;
+    font-style: italic;
+    font-family: Georgia;
+}
+
+
+.ul-font {
+    font-style: italic;
+    height: 80%;
+}
+
+form{
+  display: inline;
+  float: right;
+}
+
+li span {
+    border-left: 1px;
+}
+
+.thumbnail {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.text-thumbnail {
+    position: relative;
+    padding: 0px;
+    margin-top: 20px;
+
+}
+
+.caption {
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+img {
+
+    padding: 5px;
+}
+
+.grayImage{
+  height: 250px;
+}
+
+.writer {
+    color: black;
+    font-style: bold;
+
+}
+
+h1 {
+    color: #595959;
+}
+
+.viewMore {
+    font-style: italic;
+    color: blue;
+}
+
+.below-border {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #f1cd8f;
+    margin: 20px auto;
+}
+
+h3 {
+    border-bottom: 3px solid orange;
+    padding-bottom: 20px;
+}
+
+.announcement-border {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #D3D3D3;
+    margin: 10px;
+}
+
+h6 {
+    font-family: georgia;
+    font-size: 10px;
+    color: #D3D3D3;
+}
+
+
+.sectors {
+    padding: 25px;
+    color: #333333;
+    font-size: 28px;
+    font-weight:  bold;
+}
+
+.cardLayout{
+  height: 75px;
+}
+
+h4 {
+    color: #3355aa;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+span.vertical-line {
+    width: 1px;
+    background-color: currentColor;
+    height: 100%;
+    float: left;
+}
+
+label {
+    color: #737373;
+}
+
+.copyright {
+    margin-top: 5px;
+    margin-bottom: 35px;
+    font-size: 14px;
+    color: #737373;
+}
+
+.footer-out {
+    margin-top: 15px;
+}
+
+.footerCurrentPage {
+    color: white;
+    font-style: bold;
+}
+
+
+.footerColor{
+  background-color: #333333;
+  min-width: 100%;
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+
+
+.footerStyle{
+  font-size: 14px;
+  padding-top: 15px;
+  color: white;
+  padding-right: 5px;
+
+}
+
+.leftFooter{
+  font-size: 14px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right-style: groove;
+}
+.rightFooter{
+  font-size: 11px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-left-style: groove;
+  font-weight: 200;
+
+
+}
+
+a.footerLink{
+  color: gray;
+}
+
+a.footerLink:hover{
+  color: white;
+  text-decoration: none;
+}
+
+a.viewMore:hover{
+  color: blue;
+  text-decoration: none;
+}
+
+.copyright{
+  font-size: 11px;
+
+}
+
+.removeUlMargin{
+  padding-left: inherit;
+}
+
+.bottomRow{
+  border-top-style: groove;
+  border-top-color:  gray;
+
+}
